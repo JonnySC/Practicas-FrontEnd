@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria LaunchX</title>
+
+    <!--Aqui iran los estilos de la pagina-->
+
+<style>
+    * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        /* Estilo de header */
+ header {
+            background-color: rgb(0, 0, 0);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+ header2 {
+  
+            text-align: center;
+            font-size: 20px;
+        }
+
+ header3 {
+  
+            text-align: center;
+            bottom: 20px;
+            font-size: 20px;
+        }
+
+header4 {
+  
+            text-align: center;
+            font-size: 20px;
+}
+
+
+         /* Crear 2 columnas con la misma posición en la fila */
+         nav {
+            float: left;
+            width: 50%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 50%;
+            background-color: #f1f1f1;
+            height: 300px;
+            text-align: center;
+        }
+         /* Clear floats after the columns */
+         section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+         /* Estilo de footer */
+         footer {
+            background-color: rgb(54, 54, 53);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        /* Responsive layout */
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+                }
+    </style>
+</head>
+
+
+<body>
+
+    <!--Portada-->
+    <header>
+        <h2>Pasteleria LaunchX</h2>
+        <image src="C:\Users\jonny\Desktop\cs\LaunchX\FrontEnd-Mision\Practicas-FrontEnd\HTML\imagenes\Logo de pastelería en blanco y negro LaunchX.png" width="150" height="150">
+        </image>
+    </header>
+    <!--Descripccion de productos-->
+    <header2>
+        <h2>Pasteleria LaunchX le ofrece variedad de sabores y adornos </h2>
+    </header2>
+    <hr>
+    <!--Columnas-->
+    <section>
+        <nav>
+            <ul></ul>
+            <h1> Sabores de pasteles</h1>           
+            
+            <p>Chocolate.......................$100.00 </p>
+            <p>Vainilla........................$100.00 </p>
+            <p>Fresa...........................$100.00 </p>
+            <p>Dulce de leche..................$100.00 </p>
+            <p>Frutilla........................$100.00 </p>
+            <p>Chocolate con leche.............$100.00 </p>
+        
+        </nav>
+        <article>
+            <h1>Adornos de pasteles</h1>
+            <p>Flores.......................$100.00 </p>
+            <p>Letras........................$100.00 </p>
+            <p>Super heroe...........................$100.00 </p>
+            <p>Felicidades..................$100.00 </p>
+            <p>Frutas secas........................$100.00 </p>
+            <p>Bombones.............$100.00 </p>
+        </article>
+    </section> 
+<hr>
+    <header3>
+        <h2>¿Quieres realizar un pedido?</h2>
+        <input type="button" value="Realizar pedido"></imput>
+    </header3>
+    
+
+<br><br>    
+    
+
+
+    <footer>
+        <p>Pasteleria LaunchX ™</p> 
+    </footer>
+
+        
+</body>
+
+</html>
