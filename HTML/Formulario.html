@@ -6,12 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasteleria LaunchX</title>
 
+    <style>
+        * {
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+    
+            /* Estilo de header */
+     header {
+                background-color: rgb(0, 0, 0);
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+    
+     header2 {
+      
+                text-align: center;
+                font-size: 20px;
+            }
+    
+     header3 {
+      
+                text-align: center;
+               
+                font-size: 20px;
+            }
+  
+    
+             /* Crear 2 columnas con la misma posición en la fila */
+             nav {
+                float: left;
+                width: 50%;
+                height: 300px;
+                /* only for demonstration, should be removed */
+                background: #ccc;
+                padding: 20px;
+                text-align: center;
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            article {
+                float: left;
+                padding: 20px;
+                width: 50%;
+                background-color: #f1f1f1;
+                height: 300px;
+                text-align: center;
+            }
+             /* Clear floats after the columns */
+             section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+    
+             /* Estilo de footer */
+             footer {
+                background-color: rgb(54, 54, 53);
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            /* Responsive layout */
+            @media (max-width: 600px) {
+                nav,
+                article {
+                    width: 100%;
+                    height: auto;
+                }
+                    }
+        </style>
 </head>
 <body>
-
-
+<!--Portada-->
+    <header>
+        <h2>Pasteleria LaunchX</h2>
+        <image src="C:\Users\jonny\Desktop\cs\LaunchX\FrontEnd-Mision\Practicas-FrontEnd\HTML\imagenes\Logo de pastelería en blanco y negro LaunchX.png" width="150" height="150">
+        </image>
+    </header>
+    <!--Descripccion de productos-->
+    <header2>
+        <h1>Aqui se hace el pedido </h1>
+    </header2>
+    <hr>
+<header3>
   <!-- Formularios -->
-  <h2>Aqui se hace el pedido</h2>
+  <h2>Tomaremos sus datos</h2>
   <form action="/accion.js">
     <label for="Nombre">¿Cual es tu nombre?</label><br>
     <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
@@ -22,11 +111,39 @@
     <label for="correo1">Correo electronico</label><br>
     <input type="email" id="correo1" name="correo1"placeholder="Correo electronico"><br><br>
 
-    <label for="text">Descripción general del pastel y la selección de sabores y adornos</label><br>
-    <input type="text" id="input1" name="Input1">
-    <br> <br>
+    <h2>Seleccina el sabor de tu pastel</h2>
+    <label for="Sabor">Elige tu sabor favorito</label><br>
+    <input list="Sabor">
+    <datalist id="Sabor">
+        <option value="Chocolate">
+        <option value="Vainilla">
+        <option value="Fresa">
+        <option value="Dulce de leche">
+        <option value="Frutilla">
+        <option value="Chocolate con leche">
+    </datalist>
+    <br><br>
+    
+    <h2>Seleccina el adorno de tu pastel</h2>
+    <label for="Adorno">Elige tu adorno favorito</label><br>
+    <input list="Adorno">
+    <datalist id="Adorno">
+        <option value="Flores">
+        <option value="Letras">
+        <option value="super heroe">
+        <option value="Felicidades">
+        <option value="Frutas secas">
+        <option value="Bombones">
+    </datalist>
+    <br><br>
   </form>
-
-
+  <a href="Pasteleria_LaunchX.html">
+    <input type="button" value="Realizar pedido">
+  </a>
+<br><br>    
+</header3>
+<footer>
+ <p>Pasteleria LaunchX ™</p> 
+</footer>
 </body>
 </html>
