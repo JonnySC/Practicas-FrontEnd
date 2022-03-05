@@ -60,7 +60,20 @@
                     height: auto;
                 }
                     }
-        </style>
+.container { 
+    height: 550px;
+    position: relative; 
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+</style>
 </head>
 <body>
 <!--Portada-->
@@ -72,7 +85,8 @@
     <header2>
         <h1>Stock de la pasteleria</h1>
     </header2><hr>
-    
+<div class="container">
+    <div class="center">
     </table>
     <h1>Sabores de los pasteles</h1>
     <table>
@@ -182,7 +196,8 @@
         <td><strong>700.00</strong></td>
     </tr>
 </table>
-
+</div>
+</div>
     <footer>
         <p>Direccion: La tierra <br>  Telefono: 7831115680  <br>  Correo: correojonnysc@gmail.com</p>
         <p>Pasteleria LaunchX ™</p> 
