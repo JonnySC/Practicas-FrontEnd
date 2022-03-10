@@ -20,32 +20,32 @@ div{
 }
 
 .fondoImagen{
-    background-image: url("../images/fondo1.jpg");
+    background-image: url("minecraft.png");
 }
 
 .fondoRepetidoX{
-    background-image: url("../images/fondo2.jpg");
+    background-image: url("minecraft.png");
     background-repeat: repeat-x;
 }
 
 .fondoRepetidoY{
-    background-image: url("../images/fondo1.jpg");
+    background-image: url("minecraft.png");
     background-repeat: repeat-y;
 }
 
 .fondoNoRepetido{
-    background-image: url("../images/fondo2.jpg");
+    background-image: url("minecraft.png");
     background-repeat: no-repeat;
 }
 
 .fondoPosicion{
-    background-image: url("../images/fondo1.jpg");
+    background-image: url("minecraft.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
 .fondoCompleto{
-    background-image: url("../images/fondo2.jpg");
+    background-image: url("minecraft.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
