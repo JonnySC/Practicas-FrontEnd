@@ -2,19 +2,64 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section{
-    height: 400px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
 }
 
-div{
-    height: 400px;
+li {
+    float: left;
 }
 
-.fondoColor{
-    background-color: #0f6666;
+li a {
+    display: block;
+    color: rgb(170, 182, 201);
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
 }
 
-.fondoOpacidad{
-    background-color: #5d0c0c;
-    opacity: 0.6;
+li a:hover {
+    background-color: #111;
+}
+
+.navegador{
+     height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+derecha{
+    float: right;
+    width: 48%;
+    height: 800px;
+    background: rgb(39, 115, 220);
+    padding: 20px;
+}
+
+izquierda{
+    float: left;
+    width: 47%;
+    height: 800px;
+    background: rgb(254, 254, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+vacunas{
+    float: left;
+    width: 98%;
+    height: 200px;
+    background: rgb(177, 137, 137);
+    padding: 50px;
+}
+
+
+.barrabaja{
+    height: 200px;
+    background-color: rgb(239, 243, 254);
 }
