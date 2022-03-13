@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -32,26 +32,19 @@ li a {
 li a:hover {
     background-color: #111;
 }
-
 .navegador{
      height: 100px;
     background-color: rgb(255, 255, 255);
 }
-
 .fight{
     height: 500px;
     background-color: rgb(255, 255, 255);
-    
-
 }
 
 .why{
     height: 500px;
     background-color: rgb(255, 255, 255);
-    
-
 }
-
 why{
     float: left;
     width: 47%;
@@ -62,15 +55,28 @@ why{
     height: 100px;
     background-color: rgb(104, 52, 52);
 }
+.prep{  
+    height: 500px;
+}
 
-derecha{
+prep{
     float: right;
     width: 48%;
     height: 500px;
-    background: rgb(39, 115, 220);
+    background: rgb(217, 220, 223);
     
 }
 
+.contact{
+    height: 500px;
+    background-color: rgb(104, 52, 52);
+}
+contact{
+    float: left;
+    width: 47%;
+    height: 500px;
+    background: rgb(254, 254, 255);
+}
 izquierda{
     float: left;
     width: 47%;
