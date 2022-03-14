@@ -11,6 +11,24 @@ img {
     max-height: 100%; 
    }
 
+div{
+    width: 100px;
+    height: 100px; 
+    background-color: rgb(255, 255, 255);
+   }
+
+.rectangulo{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(60, 68, 182);
+}
+
+.centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -18,7 +36,6 @@ ul {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     text-align: center;
-
 }
 
 li {
@@ -36,13 +53,16 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+
 .navegador{
      height: 100px;
     background-color: rgb(255, 255, 255);
 }
 .fight{
-    height: 500px;
-    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    position: relative;
 }
 
 .why{
@@ -56,7 +76,8 @@ why{
     background: rgb(254, 254, 255);
 }
 .vacunas{
-    height: 200px;
+    width: auto;
+    height: auto;
     background-color: rgb(214, 175, 175);
 }
 .prep{  
@@ -83,6 +104,12 @@ contact{
 }
 izquierda{
     float: left;
+    width: 47%;
+    height: 500px;
+    position: relative
+}
+derecha{
+    float: right;
     width: 47%;
     height: 500px;
     position: relative
