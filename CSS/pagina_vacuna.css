@@ -106,8 +106,8 @@ izquierda{
 }
 derecha{
     float: right;
-    width: 60%;
-    height: 800px;
+    width: 50%;
+    height: 1000px;
     position: relative;
 }
 
