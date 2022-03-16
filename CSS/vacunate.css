@@ -172,18 +172,23 @@ floter1{
 }
 
 #tarjetaCarrusel-1{
-    background-color: #703535;
+    background-color: #ffffff00;
 }
 #tarjetaCarrusel-2{
-    background-color: #da9494;
+    background-color: #ffffff00;
 }
 #tarjetaCarrusel-3{
-    background-color: #87c01f;
+    background-color: #ffffff00;
+}
+#tarjetaCarrusel-4{
+    background-color: #ffffff00;
 }
 
 a{
     text-decoration: none;
 }
 i{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
+
+

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de vacunacion</title>
     <link rel="stylesheet" href="vacunate.css">
+    <script src="https://kit.fontawesome.com/5a5164cd55.js" crossorigin="anonymous"></script>
 </head>
 
 <body
@@ -44,14 +45,62 @@
 </contenedor>
         </ul>
     </section>
+    <br><br>
     <section>
-    <div class="section">
-        <div class="slider">
-                    <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/aztra.png" height="100" width="290" alt="" />
-                    <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/moderna.png" height="100" width="290" alt="" />
-                    <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/pfizer.png" height="100" width="290" alt="" />
-                    <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/sinovac.png" height="100" width="290" alt="" />
+     <!--Carrusel-->
+     <div id="conteItemsCarrusel">
+        <div class="itemCarrusel" id="itemCarrusel-1">
+            <div class="tarjetaCarrusel centro" id="tarjetaCarrusel-1">
+                <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/aztra.png"height="100" width="290" alt="">
             </div>
+            <div class="flechasCarrusel">
+            <a href="#itemCarrusel-3">
+                <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            <a href="#itemCarrusel-2">
+                <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="itemCarrusel-2">
+            <div class="tarjetaCarrusel centro" id="tarjetaCarrusel-2">
+                <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/moderna.png"height="100" width="290" alt="">
+            </div>
+            <div class="flechasCarrusel">
+            <a href="#itemCarrusel-1">
+                <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            <a href="#itemCarrusel-3">
+                <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="itemCarrusel-3">
+            <div class="tarjetaCarrusel centro" id="tarjetaCarrusel-3">
+                <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/pfizer.png"height="100" width="290" alt="">
+            </div>
+            <div class="flechasCarrusel">
+            <a href="#itemCarrusel-2">
+                <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            <a href="#itemCarrusel-4">
+                <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="itemCarrusel-4">
+            <div class="tarjetaCarrusel centro" id="tarjetaCarrusel-4">
+                <img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/sinovac.png"height="100" width="290" alt="">
+            </div>
+            <div class="flechasCarrusel">
+            <a href="#itemCarrusel-3">
+                <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            <a href="#itemCarrusel-1">
+                <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
     </div>
     </section>
     <section>
@@ -108,48 +157,7 @@ aqui va lo ultimo
     </section>
 
 
-    <!--Carrusel-->
-    <div id="conteItemsCarrusel">
-        <div class="itemCarrusel" id="itemCarrusel-1">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
-                A
-            </div>
-            <div class="flechasCarrusel">
-            <a href="#itemCarrusel-3">
-                <i class="fas fa-chevron-right"></i>
-                </a>
-            <a href="#itemCarrusel-2">
-                <i class="fa-solid fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-        <div class="itemCarrusel" id="itemCarrusel-2">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
-                B
-            </div>
-            <div class="flechasCarrusel">
-            <a href="#itemCarrusel-1">
-                <i class="fas fa-chevron-right"></i>
-                </a>
-            <a href="#itemCarrusel-3">
-                <i class="fa-solid fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-        <div class="itemCarrusel" id="itemCarrusel-3">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
-                C
-            </div>
-            <div class="flechasCarrusel">
-            <a href="#itemCarrucel-2">
-                <i class="fas fa-chevron-right"></i>
-                </a>
-            <a href="#itemCarrusel-1">
-                <a img src="https://raw.githubusercontent.com/JonnySC/Practicas-FrontEnd/main/CSS/imagenes/persona3.png" height="500" width="500" >
-                </a>
-            </div>
-        </div>
-    </div>
+   
 
 
 </body>
