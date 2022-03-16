@@ -1,11 +1,15 @@
-div.tajeta{
-    width: 250px;
-    margin: 0 auto;
-    text-align: center;
+div.tarjeta{
+    width: 250px; /* ancho de la tarjeta */
+    margin: 0 auto; /*centra el contenido*/
+    text-align: center; /*centrado*/
 }
 
 div.beneficios{
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    width: 250px; /* ancho de la tarjeta */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*color de sombra*/
+    text-align: center; /*alineacion del texto*/
+}
+
+div.contenido{
+    padding: 1px;/*espacio entre el borde y el texto*/
 }

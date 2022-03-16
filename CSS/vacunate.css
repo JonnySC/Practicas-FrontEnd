@@ -1,8 +1,8 @@
-*{box-sizing: border-box;; list-style:none; margin:0; padding:0; }
+*{box-sizing: border-box;; list-style:none; margin:0; padding:0; } 
 
-body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;} 
 
-section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
+section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;} 
 
 h1{margin:0px auto; display:table; font-size:26px; padding:40px 0px; color:#002e5b; text-align:center;}
 h1 span{font-weight:500;}
@@ -146,49 +146,69 @@ floter1{
 
 /*carrusel*/
 
-#conteItemsCarrusel{
-    height: 200px;
-    overflow: hidden;
+#conteItemsCarrusel{ /*contenedor de los items*/
+    height: 200px; /*altura del contenedor*/
+    overflow: hidden; /*ocultar el contenedor*/
 }
 
-.itemCarrusel{
-    height: 100%;
-    position : relative;
+.itemCarrusel{ /*clase del item*/
+    height: 100%; /*altura del item*/
+    position : relative; /*posicionamiento relativo*/
 }
 
-.tarjetaCarrusel{
-    height: 100%;
+.tarjetaCarrusel{ /*clase de la tarjeta*/
+    height: 100%; /*altura de la tarjeta*/
 }
 
-.flechasCarrusel{
-   position: absolute;
-   top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+.flechasCarrusel{ /*clase de las flechas*/
+   position: absolute; /*posicionamiento absoluto*/
+   top: 0; /*posicionamiento de la flecha*/
+    height: 100%; /*altura de la flecha*/
+    width: 100%; /*anchura de la flecha*/
+    display: flex; /*flexibilidad*/
+    align-items: center; /*alineacion vertical*/
+    justify-content: space-between; /*alineacion horizontal*/
+    padding: 20px; /*espacio entre flechas*/
 }
 
-#tarjetaCarrusel-1{
+#tarjetaCarrusel-1{ /*id de la tarjeta 1*/
     background-color: #ffffff00;
 }
-#tarjetaCarrusel-2{
+#tarjetaCarrusel-2{ /*id de la tarjeta 2*/
     background-color: #ffffff00;
 }
-#tarjetaCarrusel-3{
+#tarjetaCarrusel-3{ /*id de la tarjeta 3*/
     background-color: #ffffff00;
 }
-#tarjetaCarrusel-4{
+#tarjetaCarrusel-4{ /*id de la tarjeta 4*/
     background-color: #ffffff00;
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none; /*sin decoraciones*/
 }
 i{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /*color
 }
 
+/*Fin del carrusel*/
 
+/*tajetas*/
+
+div.tarjeta{
+    width: 250px; /* ancho de la tarjeta */
+    margin: 0 auto; /*centra el contenido*/
+    text-align: center; /*centrado*/
+}
+
+div.beneficios{
+    width: 250px; /* ancho de la tarjeta */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*color de sombra*/
+    text-align: center; /*alineacion del texto*/
+}
+
+div.contenido{
+    padding: 5px;/*espacio entre el borde y el texto*/
+}
+
+/*fin de tajetas*/
