@@ -1,0 +1,34 @@
+
+
+div.subapartado{
+    width: 600px; /* ancho de la tarjeta */
+    min-height: 600px; /* altura de la tarjeta */
+    background-color: green; /*color de fondo*/
+}
+
+div.contenido1{
+    width: 600px; /* ancho de la tarjeta */
+    height: 50px; /* altura de la tarjeta */
+    background-color: #24c06f;
+}
+
+p.contenido1{
+   margin: 14px; /*espacio entre el borde y el texto*/
+   color: white; /*color del texto*/
+}
+div.info{
+  width: 600px; /* ancho de la tarjeta */
+  min-height: 200px; /* altura de la tarjeta */
+  background-color: blue;
+  overflow: hidden; /*ocultar el contenido*/
+}
+
+p.info{
+    margin: 20px; /*espacio entre el borde y el texto*/
+    text-align: center;
+    color: #002e5b;
+}
+
+div.subapartado:hover div.info{
+  height: 180px; /* altura de la tarjeta */
+}
