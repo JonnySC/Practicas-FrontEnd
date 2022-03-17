@@ -4,7 +4,7 @@ body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
 
 section{
     width:100%; 
-    max-width:1200px; 
+    max-width:1200px; /
     margin:0px auto; 
     display:table; 
     position:relative;
@@ -22,7 +22,15 @@ header{width:100%;
     margin-bottom:50px;}
 
 
-#logo{float:left; font-size:24px; text-transform:uppercase; color:#002e5b; font-weight:600; padding:20px 0px;}
+#logo{float:left; 
+    font-size:24px; 
+    text-transform:uppercase; 
+    color:#002e5b; 
+    font-weight:600; 
+    padding:20px 0px;
+}
+
+
 nav{width:auto; float:right;}
 nav ul{display:table; float:right;}
 nav ul li{float:left;}

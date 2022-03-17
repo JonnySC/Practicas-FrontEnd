@@ -1,8 +1,9 @@
 /*carrusel*/
 *{box-sizing: border-box;; list-style:none; margin:0; padding:0; }
+
 #conteItemsCarrusel{
     height: 200px;
-    overflow: hidden;
+    overflow: hidden;/
 }
 
 .itemCarrusel{
