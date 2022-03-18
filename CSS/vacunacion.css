@@ -23,8 +23,6 @@ background-color: aqua;
 .logo{
     width: 100px;
     height: 100px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -46,6 +44,8 @@ background-color: aqua;
     width: 100%;
     height: 100%;
 }
+
+
 .contenedor{
     position: relative;
     display: flex;
@@ -74,6 +74,7 @@ div.tarjeta{
     margin: 5 auto; /*centra el contenido*/
     text-align: center; /*centrado*/
     padding: 5px; /*espacio entre tarjetas*/
+    align-items: center; /*alineacion vertical*/
 }
 
 div.beneficios{
@@ -84,6 +85,8 @@ div.beneficios{
 
 div.contenido{
     padding: 5px;/*espacio entre el borde y el texto*/
+    text-align: center;
+
 }
 
 /*fin de tajetas*/
@@ -98,10 +101,9 @@ div.contenido{
     font-weight: 300;
     font-size: 25px;
     font-style: italic;
-    color: #006505;
-    background-color: #82b085;
-    border-radius: 15px;
-    border: 3px double #006505;
+    color: #ffffff;
+    background-color: #2b4ac9;
+    
   }
   .boton_1:hover{
     opacity: 0.6;
@@ -118,9 +120,17 @@ div.contenido{
     text-align: left;
     padding: 10px;
     font-family: "Courier New", Courier, monospace;
-    background-color: #212121;
+    background-color: #ffffff;
     border-bottom: 2px solid gray;
-    color: white;
+    color: rgb(17, 5, 5);
+  }
+  section p {
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    background: #9bbbe5;
+    transition: all 0.2s ease-in;
   }
   
   section:target p {
@@ -128,3 +138,71 @@ div.contenido{
     padding: 10px;
   }
     /*fin acordeon*/
+
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: rgba(239,242,255,255)
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #002e5b;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #78879c;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+    
+
+.pie-pagina .grupo-2{
+    background-color: rgba(239,242,255,255);
+    padding: 15px 10px;
+    text-align: center;
+    color: #78879c;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
